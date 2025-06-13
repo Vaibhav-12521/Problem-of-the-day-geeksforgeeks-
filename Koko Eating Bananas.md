@@ -37,3 +37,23 @@ Pile 1: ceil(5/5) = 1 hour
 Pile 2: ceil(10/5) = 2 hours
 Pile 3: ceil(3/5) = 1 hour
 Total = 4 hours
+
+
+**Python**
+```plaintext
+class Solution:
+    def kokoEat(self,arr,k):
+        def hours_needed(speed):
+            hours = 0
+            for pile in arr:
+                hours += (pile + speed - 1) // speed  
+            return hours
+        
+        low, high = 1, max(arr)
+        while low < high:
+            mid = (low + high) // 2
+            if hours_needed(mid) <= k:
+                high = mid
+            else:
+                low = mid + 1
+        return low
