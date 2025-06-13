@@ -59,6 +59,26 @@ class Solution:
                 low = mid + 1
         return low
 ```
+## ☕️ Java Solution
+
+```Java(1.8)
+class Solution:
+    def kokoEat(self,arr,k):
+        def hours_needed(speed):
+            hours = 0
+            for pile in arr:
+                hours += (pile + speed - 1) // speed  
+            return hours
+        
+        low, high = 1, max(arr)
+        while low < high:
+            mid = (low + high) // 2
+            if hours_needed(mid) <= k:
+                high = mid
+            else:
+                low = mid + 1
+        return low
+```
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=second-largest-problem" alt="visitor badge"/>
 
