@@ -9,5 +9,5 @@
 ## Example
 
 ### 📥 Input: root[] = [1, 2, 2, 3, 4, 4, 3]
-![Symmetric Tree](assets/tree.png)
+![Symmetric Tree](assets/tree.webp)
 
