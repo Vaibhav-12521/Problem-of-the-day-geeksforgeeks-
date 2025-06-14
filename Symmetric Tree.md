@@ -11,3 +11,16 @@
 ### 📥 Input: root[] = [1, 2, 2, 3, 4, 4, 3]
 ![Symmetric Tree](assets/tree1.png)
 
+**Output:** True
+**Explanation:** As the left and right half of the above tree is mirror image, tree is symmetric.
+
+---
+
+### 📥 Input: root[] = [1, 2, 2, N, 3, N, 3]
+![Symmetric Tree](assets/tree2.png)
+
+**Output:** False
+**Explanation:** As the left and right half of the above tree is not the mirror image, tree is not symmetric. 
+
+---
+
