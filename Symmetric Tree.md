@@ -12,6 +12,7 @@
 ![Symmetric Tree](assets/tree1.png)
 
 **Output:** True
+
 **Explanation:** As the left and right half of the above tree is mirror image, tree is symmetric.
 
 ---
@@ -20,6 +21,7 @@
 ![Symmetric Tree](assets/tree2.png)
 
 **Output:** False
+
 **Explanation:** As the left and right half of the above tree is not the mirror image, tree is not symmetric. 
 
 ---
