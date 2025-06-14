@@ -61,7 +61,7 @@ class Solution:
 ```
 ## ☕️ Java Solution
 
-```Java(1.8)
+```java(1.8)
 class Solution:
     def kokoEat(self,arr,k):
         def hours_needed(speed):
