@@ -30,9 +30,9 @@
 1  ≤ number of nodes ≤ 2000
 
 
-
-```
 ## 🐍 Python Solution
+```
+
 
 '''
 class Node:
