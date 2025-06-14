@@ -6,9 +6,11 @@
 
 ---
 
-## 📥 Input
+## Example
+
+### 📥 Input
 
 - An array representing the level-order traversal of a binary tree.
 - `None` represents a null node.
 
-### Example 1:
+
