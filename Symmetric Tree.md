@@ -58,22 +58,35 @@ class Solution:
 ## ☕️ Java Solution
 
 ```Java(1.8)
-class Solution:
-    def kokoEat(self,arr,k):
-        def hours_needed(speed):
-            hours = 0
-            for pile in arr:
-                hours += (pile + speed - 1) // speed  
-            return hours
+/*
+class Node{
+    int data;
+    Node left;
+    Node right;
+    Node(int data){
+        this.data = data;
+        left=null;
+        right=null;
+    }
+}
+
+*/
+class Solution {
+    public boolean isSymmetric(Node root) {
+        // Code here
+        if (root == null) return true;
+        return isMirror(root.left, root.right);
+    }
+    
+    private boolean isMirror(Node left, Node right) {
+        if (left == null && right == null) return true;
+        if (left == null || right == null) return false;
+        if (left.data != right.data) return false;
         
-        low, high = 1, max(arr)
-        while low < high:
-            mid = (low + high) // 2
-            if hours_needed(mid) <= k:
-                high = mid
-            else:
-                low = mid + 1
-        return low
+        return isMirror(left.left, right.right) && isMirror(left.right, right.left);
+    
+    }
+}
 ```
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=second-largest-problem" alt="visitor badge"/>
