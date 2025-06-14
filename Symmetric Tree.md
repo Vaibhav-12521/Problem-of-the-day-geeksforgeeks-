@@ -9,5 +9,5 @@
 ## Example
 
 ### 📥 Input: root[] = [1, 2, 2, 3, 4, 4, 3]
-![Alt Text]([image_url_or_path](https://media.geeksforgeeks.org/wp-content/uploads/20240926171713/ex-1_1.webp))
+![Symmetric Tree](assets/tree.png)
 
