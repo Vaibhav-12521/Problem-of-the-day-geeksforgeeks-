@@ -43,7 +43,6 @@ Given an integer array arr[] and an integer k (where k ≥ arr.length), find the
 ## 🐍 Python Solution
 
 ```python
-
 class Solution:
     def smallestDivisor(self, arr, k):
         def compute_sum(divisor):
