@@ -46,7 +46,6 @@ Given an integer array arr[] and an integer k (where k ≥ arr.length), find the
 
 class Solution:
     def smallestDivisor(self, arr, k):
-        # Code here
         def compute_sum(divisor):
             total = 0
             for num in arr:
