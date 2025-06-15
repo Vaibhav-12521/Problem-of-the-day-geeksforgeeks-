@@ -63,22 +63,43 @@ class Solution:
 ## ☕️ Java Solution
 
 ```java
-class Solution:
-    def kokoEat(self,arr,k):
-        def hours_needed(speed):
-            hours = 0
-            for pile in arr:
-                hours += (pile + speed - 1) // speed  
-            return hours
-        
-        low, high = 1, max(arr)
-        while low < high:
-            mid = (low + high) // 2
-            if hours_needed(mid) <= k:
-                high = mid
-            else:
-                low = mid + 1
-        return low
+class Solution {
+    int smallestDivisor(int[] arr, int k) {
+        int low = 1;
+        int high = getMax(arr);
+        int result = high;
+
+        while (low <= high) {
+            int mid = low + (high - low) / 2;
+            int total = computeSum(arr, mid);
+
+            if (total <= k) {
+                result = mid;
+                high = mid - 1;
+            } else {
+                low = mid + 1;
+            }
+        }
+
+        return result;
+    }
+
+    private int computeSum(int[] arr, int divisor) {
+        int total = 0;
+        for (int num : arr) {
+            total += (num + divisor - 1) / divisor;
+        }
+        return total;
+    }
+
+    private int getMax(int[] arr) {
+        int max = arr[0];
+        for (int num : arr) {
+            if (num > max) max = num;
+        }
+        return max;
+    }
+}
 ```
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=second-largest-problem" alt="visitor badge"/>
