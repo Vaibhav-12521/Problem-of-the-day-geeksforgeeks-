@@ -37,9 +37,9 @@ Given an integer array arr[] and an integer k (where k ≥ arr.length), find the
 ## ✅ Problem: Smallest Divisor
 Given:
 
--- An array arr[] of positive integers
+- An array arr[] of positive integers
 
--- An integer k such that k ≥ arr.length
+- An integer k such that k ≥ arr.length
 
 
 ## 🐍 Python Solution
