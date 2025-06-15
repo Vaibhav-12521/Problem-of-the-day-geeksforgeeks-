@@ -12,7 +12,11 @@ Given an integer array arr[] and an integer k (where k ≥ arr.length), find the
 **Output:** 5
 **Explanation:** 5 is the smallest divisor having sum of quotients (1 + 1 + 1 + 2 = 5) less than or equal to 6.
 
+
+
 ---
+
+
 
 **Input:** arr[] = [1, 1, 1, 1], k = 4
 **Output:** 1
