@@ -36,42 +36,36 @@ Given an integer array arr[] and an integer k (where k ≥ arr.length), find the
 
 ---
 
-## Examples
 
-**Example 1:**
 
-```plaintext
-Input: arr = [5, 10, 3], k = 4
-Output: 5
-
-Explanation:
-Koko can eat 5 bananas/hour.
-Hours taken:
-Pile 1: ceil(5/5) = 1 hour
-Pile 2: ceil(10/5) = 2 hours
-Pile 3: ceil(3/5) = 1 hour
-Total = 4 hours
 
 ```
 ## 🐍 Python Solution
 
 ```python
 class Solution:
-    def kokoEat(self,arr,k):
-        def hours_needed(speed):
-            hours = 0
-            for pile in arr:
-                hours += (pile + speed - 1) // speed  
-            return hours
-        
+    def smallestDivisor(self, arr, k):
+        # Code here
+        def compute_sum(divisor):
+            total = 0
+            for num in arr:
+                total += (num + divisor - 1) // divisor 
+            return total
+
         low, high = 1, max(arr)
-        while low < high:
+        result = high
+
+        while low <= high:
             mid = (low + high) // 2
-            if hours_needed(mid) <= k:
-                high = mid
+            total = compute_sum(mid)
+
+            if total <= k:
+                result = mid
+                high = mid - 1
             else:
                 low = mid + 1
-        return low
+
+        return result
 ```
 ## ☕️ Java Solution
 
