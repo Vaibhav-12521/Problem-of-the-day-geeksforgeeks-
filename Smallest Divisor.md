@@ -34,37 +34,12 @@ Given an integer array arr[] and an integer k (where k ≥ arr.length), find the
 - 1 ≤ arr[i] ≤ 10^6
 - arr.size() ≤ k ≤ 10^6
 
-## 🔍 Explanation
+## ✅ Problem: Smallest Divisor
+Given:
 
-We are given an array `arr[]` and an integer `k`.  
-We need to find the **smallest integer divisor** such that:
+-- An array arr[] of positive integers
 
-\[
-\sum_{i=0}^{n-1} \left\lceil \frac{arr[i]}{\text{divisor}} \right\rceil \leq k
-\]
-
-Since using smaller divisors increases the ceiling sum, and larger divisors decrease it, we can apply **binary search** on the range of possible divisors.
-
-### 🧠 Binary Search Strategy
-
-- Start with `low = 1` and `high = max(arr)`
-- For each mid value, calculate the total sum:
-  
-  \[
-  \text{total} = \sum \left( \frac{arr[i] + mid - 1}{mid} \right)
-  \]
-
-  This is a trick to calculate `ceil(arr[i] / mid)` without using floating point or Math libraries.
-
-### ✅ Why `(arr[i] + divisor - 1) / divisor` Works?
-
-This is a mathematical trick:
-
-\[
-\left\lceil \frac{a}{b} \right\rceil = \left\lfloor \frac{a + b - 1}{b} \right\rfloor
-\]
-
-Example:
+-- An integer k such that k ≥ arr.length
 
 
 ## 🐍 Python Solution
