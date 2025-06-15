@@ -45,16 +45,18 @@ Given:
 ## Example: 
 
 - If d = 1:
-  
+```bash
   ceil(1/1) + ceil(2/1) + ceil(5/1) + ceil(9/1)
   
   = 1 + 2 + 5 + 9 = 17 ❌ (too big)
+```
 
 - If d = 5:
-  
+```bash
   ceil(1/5) + ceil(2/5) + ceil(5/5) + ceil(9/5)
   
   = 1 + 1 + 1 + 2 = 5 ✅ (≤ 6)
+```
 
 So, **Output =** 5
 
