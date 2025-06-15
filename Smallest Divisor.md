@@ -56,6 +56,7 @@ Given:
   
   = 1 + 1 + 1 + 2 = 5 ✅ (≤ 6)
 
+So, **Output =** 5
 
 ## 🐍 Python Solution
 
