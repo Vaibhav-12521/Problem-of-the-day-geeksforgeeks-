@@ -41,7 +41,7 @@ Solve one problem every day, share clean and efficient solutions, and track lear
 ## 🔗 Useful Links
 
 - [GeeksforGeeks Problem of the Day](https://practice.geeksforgeeks.org/problem-of-the-day)
-- [My GfG Profile](#) *(https://www.geeksforgeeks.org/user/vaibhavsingh12521/)*
+- [My GfG Profile](https://www.geeksforgeeks.org/user/vaibhavsingh12521/)
 
 ---
 
