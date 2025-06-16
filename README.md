@@ -8,11 +8,11 @@ Each problem is solved in the language mentioned in the table, with the source c
 
 ## 📅 Daily Problem Log
 
-| Problem Name | Language | Date |
-|--------------|----------|------|
-| [First Repeating Element](https://www.geeksforgeeks.org/find-first-repeating-element-array-integers/) | Python | 2025-06-15 |
-| [Longest Sub-Array with Sum K](https://www.geeksforgeeks.org/longest-sub-array-sum-k/) | C++ | 2025-06-14 |
-| [Top K Frequent Elements in Array](https://www.geeksforgeeks.org/top-k-frequent-elements-in-array/) | Java | 2025-06-13 |
+| #  | Problem Name | Language       | Solution        |
+|----|--------------|----------------|-----------------|
+| 1  | [K closest elements] | Python, Java | 📂 [Click Here](./K_closest_elements) |
+| 2  | [Longest Sub-Array with Sum K] | Python, Java | 📂 [Click Here](./Longest_Subarray_with_Sum_K) |
+| 3  | [Top K Frequent Elements in Array] | Python, Java | 📂 [Click Here](./Top_K_Frequent_Elements) |
 
 ---
 
@@ -20,7 +20,7 @@ Each problem is solved in the language mentioned in the table, with the source c
 
 1. Browse through the table above.
 2. Click on any problem name to view the original problem statement.
-3. Check the corresponding file in this repo for the solution in your preferred language.
+3. Click on **Click Here** under the Solution column to open the respective folder.
 
 ---
 
