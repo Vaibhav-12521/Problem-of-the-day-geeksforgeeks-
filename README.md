@@ -11,8 +11,9 @@ Each problem is solved in the language mentioned in the table, with the source c
 | #  | Problem Name | Language       | Solution        |
 |----|--------------|----------------|-----------------|
 | 1  | [K closest elements] | Python, Java | 📂 [Click Here](./K_closest_elements) |
-| 2  | [Longest Sub-Array with Sum K] | Python, Java | 📂 [Click Here](./Longest_Subarray_with_Sum_K) |
-| 3  | [Top K Frequent Elements in Array] | Python, Java | 📂 [Click Here](./Top_K_Frequent_Elements) |
+| 2  | [Symmetric Tree](https://www.geeksforgeeks.org/problems/symmetric-tree/1) | Python, Java | 📂 [Click Here](./Longest_Subarray_with_Sum_K) |
+| 3  | [Smallest Divisor](https://www.geeksforgeeks.org/problems/smallest-divisor/1) | Python, Java | 📂 [Click Here](./Top_K_Frequent_Elements) |
+| 4  | [Equalize the Towers](https://www.geeksforgeeks.org/problems/equalize-the-towers2804/1) | Python, Java | 📂 [Click Here](./Top_K_Frequent_Elements) |
 
 ---
 
@@ -27,8 +28,8 @@ Each problem is solved in the language mentioned in the table, with the source c
 ## 🚀 Languages Used
 
 - Python 🐍
-- C++ 💻
-- Java ☕ *(can be extended to others)*
+- Java ☕
+- C++ 💻 *(can be extended to others)*
 
 ---
 
