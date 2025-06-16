@@ -11,9 +11,9 @@ Each problem is solved in the language mentioned in the table, with the source c
 | #  | Problem Name | Language       | Solution        |
 |----|--------------|----------------|-----------------|
 | 1  | [K closest elements] | Python, Java | 📂 [Click Here](./K_closest_elements) |
-| 2  | [Symmetric Tree](https://www.geeksforgeeks.org/problems/symmetric-tree/1) | Python, Java | 📂 [Click Here](./Longest_Subarray_with_Sum_K) |
-| 3  | [Smallest Divisor](https://www.geeksforgeeks.org/problems/smallest-divisor/1) | Python, Java | 📂 [Click Here](./Top_K_Frequent_Elements) |
-| 4  | [Equalize the Towers](https://www.geeksforgeeks.org/problems/equalize-the-towers2804/1) | Python, Java | 📂 [Click Here](./Top_K_Frequent_Elements) |
+| 2  | [Symmetric Tree](https://www.geeksforgeeks.org/problems/symmetric-tree/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Symmetric%20Tree.md) |
+| 3  | [Smallest Divisor](https://www.geeksforgeeks.org/problems/smallest-divisor/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Smallest%20Divisor.md) |
+| 4  | [Equalize the Towers](https://www.geeksforgeeks.org/problems/equalize-the-towers2804/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Equalize%20the%20Towers.md) |
 
 ---
 
