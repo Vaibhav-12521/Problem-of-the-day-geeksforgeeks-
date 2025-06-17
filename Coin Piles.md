@@ -35,6 +35,49 @@ Your task is to remove the minimum number of **coins** such that the absolute di
 - 0 ≤ k ≤ 104
 
 
+## ✅ Problem Summary
+Given:
+
+- An array arr[] representing coin piles.
+
+- An integer k.
+
+Goal:
+
+- Remove the minimum number of coins so that the absolute difference between any two remaining piles is ≤ k.
+
+- You can remove any number of coins from any pile, including the entire pile.
+
+## ✅ Step-by-Step Plan (Optimized for Speed)
+🔹 Step 1: Understand the Range You Can Keep
+- If you keep all piles within some value x and x + k, then the difference between any two piles is ≤ k.
+
+- So the goal becomes: find the range [x, x + k] that covers as many coins as possible, and remove the rest.
+
+
+Step 2: Count Frequencies
+- Since arr[i] ≤ 10⁴, use a frequency array or Counter to count how many times each value appears.
+
+🔹 Step 3: Build Prefix Sums
+- Build prefix sums:
+    - cnt[i] = total number of piles ≤ i
+
+    - val[i] = total number of coins in piles ≤ i
+
+- This helps compute how many coins to remove efficiently.
+
+🔹 Step 4: Try All Possible [x, x + k] Windows
+- Iterate over all possible x values from 1 to max(arr):
+
+    - Coins to remove:
+
+        - All coins in piles < x
+
+        - All coins in piles > x + k (but reduce them to x + k)
+
+Use prefix sums to compute these quickly.
+
+
 
 
 ## 🐍 Python Solution
