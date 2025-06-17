@@ -35,39 +35,6 @@ Your task is to remove the minimum number of **coins** such that the absolute di
 - 0 ≤ k ≤ 104
 
 
-## Algorithm Steps
- - Pair up each height with its cost: (height, cost).
-
- - Sort the array by height.
-
- - Compute the total cost prefix sum.
-
- - Use binary search or prefix technique to find the height with minimum total cost.
-
-
-## Explanation:
-
-Try equalizing all towers to height 2:
-
-- Tower 1 (1 → 2): Add 1 → Cost = 1 * 10 = 10
-
-- Tower 2 (2 → 2): No change → Cost = 0
-
-- Tower 3 (3 → 2): Remove 1 → Cost = 1 * 1000 = 1000
-
-**Total =** 10 + 0 + 1000 = 1010
-
-Now try height 3:
-
-- Tower 1 (1 → 3): Add 2 → Cost = 2 * 10 = 20
-
-- Tower 2 (2 → 3): Add 1 → Cost = 1 * 100 = 100
-
-- Tower 3 (3 → 3): No change → Cost = 0
-
-**Total =** 20 + 100 + 0 = 120
-
-✅ So the answer is: **120**
 
 
 ## 🐍 Python Solution
@@ -75,76 +42,77 @@ Now try height 3:
 ```python
 class Solution:
     def minimumCoins(self, arr, k):
-        # code here
-        arr.sort()
-        n = len(arr)
-        prefix_sum = [0] * (n + 1)
-        for i in range(n):
-            prefix_sum[i + 1] = prefix_sum[i] + arr[i]
-        min_remove = float('inf')
-        for i in range(n):
-            base = arr[i]
-            upper_limit = base + k
-            left, right = i, n - 1
-            idx = n
-            while left <= right:
-                mid = (left + right) // 2
-                if arr[mid] > upper_limit:
-                    idx = mid
-                    right = mid - 1
-                else:
-                    left = mid + 1
+        from collections import Counter
 
-            coins_to_remove = prefix_sum[i]  
-            for j in range(idx, n):
-                coins_to_remove += arr[j] - upper_limit 
-            min_remove = min(min_remove, coins_to_remove)
+        freq = Counter(arr)
+        unique = sorted(freq.keys())
+        max_val = max(arr)
 
-        return min_remove
+        # Build prefix sums of counts and values
+        cnt = [0] * (max_val + 2)
+        val = [0] * (max_val + 2)
+        for num in arr:
+            cnt[num] += 1
+            val[num] += num
+
+        for i in range(1, max_val + 2):
+            cnt[i] += cnt[i - 1]
+            val[i] += val[i - 1]
+
+        ans = float('inf')
+
+        for x in range(1, max_val + 1):
+            left_cnt = cnt[x - 1]
+            left_val = val[x - 1]
+
+            high = min(max_val, x + k)
+            right_cnt = cnt[max_val] - cnt[high]
+            right_val = val[max_val] - val[high]
+
+            remove = left_val + (right_val - right_cnt * (x + k))
+            ans = min(ans, remove)
+
+        return ans
 ```
 ## ☕️ Java Solution
 
 ```java
 class Solution {
-    public int minCost(int[] heights, int[] cost) {
-        int n = heights.length;
-        int[][] towers = new int[n][2];
+    public int minimumCoins(int[] arr, int k) {
+        Arrays.sort(arr);
+        int n = arr.length;
+
+        long[] prefixSum = new long[n + 1];
         for (int i = 0; i < n; i++) {
-            towers[i][0] = heights[i];
-            towers[i][1] = cost[i];
+            prefixSum[i + 1] = prefixSum[i] + arr[i];
         }
 
-        Arrays.sort(towers, (a, b) -> Integer.compare(a[0], b[0]));
-
-        long[] prefixCost = new long[n];
-        long[] prefixCostHeight = new long[n];
-
-        prefixCost[0] = towers[0][1];
-        prefixCostHeight[0] = (long) towers[0][0] * towers[0][1];
-
-        for (int i = 1; i < n; i++) {
-            prefixCost[i] = prefixCost[i - 1] + towers[i][1];
-            prefixCostHeight[i] = prefixCostHeight[i - 1] + (long) towers[i][0] * towers[i][1];
-        }
-
-        long totalCost = Long.MAX_VALUE;
+        long minRemove = Long.MAX_VALUE;
 
         for (int i = 0; i < n; i++) {
-            int height = towers[i][0];
-            long leftCost = (long) height * prefixCost[i] - prefixCostHeight[i];
-            long rightCost = 0;
-            if (i < n - 1) {
-                long totalCostRight = prefixCostHeight[n - 1] - prefixCostHeight[i];
-                long costRight = prefixCost[n - 1] - prefixCost[i];
-                rightCost = totalCostRight - (long) height * costRight;
+            int base = arr[i];
+            int upperLimit = base + k;
+            int left = i, right = n - 1, idx = n;
+            while (left <= right) {
+                int mid = (left + right) / 2;
+                if (arr[mid] > upperLimit) {
+                    idx = mid;
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
+                }
             }
-            totalCost = Math.min(totalCost, leftCost + rightCost);
+
+            long coinsToRemove = prefixSum[i]; 
+            long sumAfterUpper = prefixSum[n] - prefixSum[idx];
+            coinsToRemove += sumAfterUpper - (long)(n - idx) * upperLimit;
+
+            minRemove = Math.min(minRemove, coinsToRemove);
         }
 
-        return (int) totalCost;
+        return (int) minRemove;
     }
 }
-
 
 ```
 <p align="center">
