@@ -15,6 +15,7 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 3  | [Smallest Divisor](https://www.geeksforgeeks.org/problems/smallest-divisor/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Smallest%20Divisor.md) |
 | 4  | [Equalize the Towers](https://www.geeksforgeeks.org/problems/equalize-the-towers2804/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Equalize%20the%20Towers.md) |
 | 5  | [Coin Piles](https://www.geeksforgeeks.org/problems/coin-piles5152/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Coin%20Piles.md) |
+| 6  | [All Palindromic Partitions](https://www.geeksforgeeks.org/problems/find-all-possible-palindromic-partitions-of-a-string/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/All%20Palindromic%20Partitions.md) |
 
 ---
 
