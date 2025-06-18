@@ -49,3 +49,8 @@ Solve one problem every day, share clean and efficient solutions, and track lear
 ---
 
 Feel free to star ⭐ the repo if you find it helpful!
+
+<p align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=second-largest-problem" alt="visitor badge"/>
+
+</p>
