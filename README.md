@@ -16,6 +16,11 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 4  | [Equalize the Towers](https://www.geeksforgeeks.org/problems/equalize-the-towers2804/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Equalize%20the%20Towers.md) |
 | 5  | [Coin Piles](https://www.geeksforgeeks.org/problems/coin-piles5152/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Coin%20Piles.md) |
 | 6  | [All Palindromic Partitions](https://www.geeksforgeeks.org/problems/find-all-possible-palindromic-partitions-of-a-string/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/All%20Palindromic%20Partitions.md) |
+| 7  | [Case-specific Sorting of Strings](https://www.geeksforgeeks.org/problems/case-specific-sorting-of-strings4845/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Case-specific%20Sorting%20of%20Strings.md) |
+|   | []() | Python, Java | 📂 [Click Here]() |
+|   | []() | Python, Java | 📂 [Click Here]() |
+|   | []() | Python, Java | 📂 [Click Here]() |
+|   | []() | Python, Java | 📂 [Click Here]() |
 
 ---
 
