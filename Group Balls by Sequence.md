@@ -48,7 +48,7 @@ For each `x + i` in range `k`:
 
 - If all groups are formed successfully, return `True`.
 
-##🧠 Example Walkthrough
+## 🧠 Example Walkthrough
 
 For `arr = [10, 1, 2, 11], k = 2:`
 
