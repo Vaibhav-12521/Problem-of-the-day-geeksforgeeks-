@@ -50,6 +50,22 @@ thieves = [1, 2, 4]
 ```
 
 
+**Step 3: Use Two Pointers to Match**
+
+- Use two pointers: `i` for `police`, `j` for `thieves`
+
+- Loop while both lists have unmatched entries:
+
+  - If `abs(police[i] - thieves[j]) <= k`, count it as a catch:
+
+      - Increment both `i` and `j`
+
+  - If `thieves[j] < police[i]`, thief is too far left — move to next thief `(j += 1)`
+
+- Else, policeman is too far left — move to next police `(i += 1)`
+
+
+
 
 
 ## 🐍 Python Solution
