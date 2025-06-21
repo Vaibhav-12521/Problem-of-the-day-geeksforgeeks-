@@ -44,9 +44,6 @@ Keep in mind the following conditions :
 ### 🧾 Example:
 
 ```Bash
-
-python
-Copy code
 arr = ['P', 'T', 'T', 'P', 'T']
 police = [0, 3]
 thieves = [1, 2, 4]
