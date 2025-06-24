@@ -20,7 +20,7 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 8  | [Police and Thieves](https://www.geeksforgeeks.org/problems/police-and-thieves--141631/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Police%20and%20Thieves.md) |
 | 9  | [Largest Divisible Subset](https://www.geeksforgeeks.org/problems/largest-divisible-subset--170643/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Largest%20Divisible%20Subset.md) |
 | 10  | [Minimum sum](https://www.geeksforgeeks.org/problems/minimum-sum4058/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Minimum%20sum.md) |
-|   | []() | Python, Java | 📂 [Click Here]() |
+| 11  | [Lexicographically Largest String After K Deletions](https://www.geeksforgeeks.org/problems/lexicographically-largest-string-after-deleting-k-characters/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Lexicographically%20Largest%20String%20After%20K%20Deletions.md) |
 |   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
