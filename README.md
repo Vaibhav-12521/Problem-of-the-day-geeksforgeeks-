@@ -23,7 +23,7 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 11  | [Lexicographically Largest String After K Deletions](https://www.geeksforgeeks.org/problems/lexicographically-largest-string-after-deleting-k-characters/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Lexicographically%20Largest%20String%20After%20K%20Deletions.md) |
 | 12  | [Check if frequencies can be equal](https://www.geeksforgeeks.org/problems/check-frequencies4211/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Check%20if%20frequencies%20can%20be%20equal.md) |
 | 13  | [Game with String](https://www.geeksforgeeks.org/problems/game-with-string4100/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Game%20with%20String.md) |
-|   | []() | Python, Java | 📂 [Click Here]() |
+| 14  | [Mobile numeric keypad](https://www.geeksforgeeks.org/problems/mobile-numeric-keypad5456/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Mobile%20numeric%20keypad.md) |
 |   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
