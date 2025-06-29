@@ -1,4 +1,4 @@
-# Check if frequencies can be equal
+# Counting elements in two arrays
 
 ## Problem Statement
 You are given two unsorted arrays `a[]` and `b[]`. Both arrays may contain duplicate elements. For each element in `a[]`, your task is to count how many elements in `b[]` are `less than or equal` to that element.
