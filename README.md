@@ -10,7 +10,7 @@ Each problem is solved in the language mentioned in the table, with the source c
 
 | #  | Problem Name | Language       | Solution        |
 |----|--------------|----------------|-----------------|
-| 1  | [K closest elements] | Python, Java | 📂 [Click Here](./K_closest_elements) |
+| 1  | [K closest elements]() | Python, Java | 📂 [Click Here](./K_closest_elements) |
 | 2  | [Symmetric Tree](https://www.geeksforgeeks.org/problems/symmetric-tree/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Symmetric%20Tree.md) |
 | 3  | [Smallest Divisor](https://www.geeksforgeeks.org/problems/smallest-divisor/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Smallest%20Divisor.md) |
 | 4  | [Equalize the Towers](https://www.geeksforgeeks.org/problems/equalize-the-towers2804/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Equalize%20the%20Towers.md) |
@@ -27,8 +27,7 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 15  | [Counting elements in two arrays](https://www.geeksforgeeks.org/problems/counting-elements-in-two-arrays/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Counting%20elements%20in%20two%20arrays.md) |
 | 16  | [Split Array Largest Sum](https://www.geeksforgeeks.org/problems/split-array-largest-sum--141634/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Split%20Array%20Largest%20Sum.md) |
 | 17  | [Max min Height](https://www.geeksforgeeks.org/problems/max-min-height--170647/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Max%20min%20Height.md) |
-| 18  | []() | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Substrings%20of%20length%20k%20with%20k-1%20distinct%20elements.md) |
-|   | [Substrings of length k with k-1 distinct elements](https://www.geeksforgeeks.org/problems/substrings-of-length-k-with-k-1-distinct-elements/1) | Python, Java | 📂 [Click Here]() |
+| 18  | [Substrings of length k with k-1 distinct elements](https://www.geeksforgeeks.org/problems/substrings-of-length-k-with-k-1-distinct-elements/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Substrings%20of%20length%20k%20with%20k-1%20distinct%20elements.md) |
 |   | []() | Python, Java | 📂 [Click Here]() |
 
 
