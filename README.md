@@ -29,6 +29,9 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 17  | [Max min Height](https://www.geeksforgeeks.org/problems/max-min-height--170647/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Max%20min%20Height.md) |
 | 18  | [Substrings of length k with k-1 distinct elements](https://www.geeksforgeeks.org/problems/substrings-of-length-k-with-k-1-distinct-elements/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Substrings%20of%20length%20k%20with%20k-1%20distinct%20elements.md) |
 | 19  | [Longest subarray with Atmost two distinct integers](https://www.geeksforgeeks.org/problems/fruit-into-baskets-1663137462/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Longest%20subarray%20with%20Atmost%20two%20distinct%20integers.md) |
+| 20  | [Longest Substring with K Uniques](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Longest%20Substring%20with%20K%20Uniques.md) |
+|   | []() | Python, Java | 📂 [Click Here]() |
+|   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 
