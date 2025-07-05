@@ -31,7 +31,7 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 19  | [Longest subarray with Atmost two distinct integers](https://www.geeksforgeeks.org/problems/fruit-into-baskets-1663137462/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Longest%20subarray%20with%20Atmost%20two%20distinct%20integers.md) |
 | 20  | [Longest Substring with K Uniques](https://www.geeksforgeeks.org/problems/longest-k-unique-characters-substring0853/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Longest%20Substring%20with%20K%20Uniques.md) |
 | 21  | [Substrings of length k with k-1 distinct elements](https://www.geeksforgeeks.org/problems/subarrays-with-at-most-k-distinct-integers/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Subarrays%20With%20At%20Most%20K%20Distinct%20Integers.md) |
-|   | []() | Python, Java | 📂 [Click Here]() |
+| 22  | [Max Score from Subarray Mins](https://www.geeksforgeeks.org/problems/max-sum-in-sub-arrays0824/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Max%20Score%20from%20Subarray%20Mins.md) |
 |   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 
