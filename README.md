@@ -34,7 +34,7 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 22  | [Max Score from Subarray Mins](https://www.geeksforgeeks.org/problems/max-sum-in-sub-arrays0824/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Max%20Score%20from%20Subarray%20Mins.md) |
 | 23  | [Maximum Sum Combination](https://www.geeksforgeeks.org/problems/maximum-sum-combination/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Maximum%20Sum%20Combination.md) |
 | 24  | [Next Greater Element in Circular Array](https://www.geeksforgeeks.org/problems/next-greater-element/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Next%20Greater%20Element%20in%20Circular%20Array.md) |
-|   | []() | Python, Java | 📂 [Click Here]() |
+|   | [Create Next element with greater frequency](https://www.geeksforgeeks.org/problems/next-element-with-greater-frequency--170637/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Next%20element%20with%20greater%20frequency.md) |
 |   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
