@@ -38,6 +38,10 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 26  | [Sum of subarray minimum](https://www.geeksforgeeks.org/problems/sum-of-subarray-minimum/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Sum%20of%20subarray%20minimum.md) |
 | 27  | [Find the longest string](https://www.geeksforgeeks.org/problems/find-the-longest-string--170645/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Find%20the%20longest%20string.md) |
 | 28  | [Trail of ones](https://www.geeksforgeeks.org/problems/trail-of-ones3242/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Trail%20of%20ones.md) |
+| 29  | [Gold Mine Problem](https://www.geeksforgeeks.org/problems/gold-mine-problem2608/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Gold%20Mine%20Problem.md) |
+|   | []() | Python, Java | 📂 [Click Here]() |
+|   | []() | Python, Java | 📂 [Click Here]() |
+|   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 
