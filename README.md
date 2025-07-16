@@ -42,6 +42,9 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 30  | [Maximum sum of elements not part of LIS](https://www.geeksforgeeks.org/problems/maximum-sum-of-elements-not-part-of-lis/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Maximum%20sum%20of%20elements%20not%20part%20of%20LIS.md) |
 | 31  | [Cutting Binary String](https://www.geeksforgeeks.org/problems/cutting-binary-string1342/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Cutting%20Binary%20String.md) |
 | 32  | [Divisible by 13](https://www.geeksforgeeks.org/problems/divisible-by-13/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Divisible%20by%2013.md) |
+| 33  | [Nine Divisors](https://www.geeksforgeeks.org/problems/nine-divisors3751/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Nine%20Divisors.md) |
+|   | []() | Python, Java | 📂 [Click Here]() |
+|   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 
