@@ -44,7 +44,7 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 32  | [Divisible by 13](https://www.geeksforgeeks.org/problems/divisible-by-13/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Divisible%20by%2013.md) |
 | 33  | [Nine Divisors](https://www.geeksforgeeks.org/problems/nine-divisors3751/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Nine%20Divisors.md) |
 | 34  | [Power of k in factorial of n](https://www.geeksforgeeks.org/problems/power-of-k-in-n-where-k-may-be-non-prime4206/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Power%20of%20k%20in%20factorial%20of%20n.md) |
-|   | []() | Python, Java | 📂 [Click Here]() |
+| 35  | [LCM Triplet](https://www.geeksforgeeks.org/problems/lcm-triplet1501/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/LCM%20Triplet.md) |
 |   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 
