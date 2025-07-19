@@ -4,11 +4,11 @@
 
 You are given a lowercase string **s**, determine the total number of distinct strings that can be formed using the following rules:
 
-  Identify all **unique** vowels (a, e, i, o, u) present in the string.
+  - Identify all **unique** vowels (a, e, i, o, u) present in the string.
   
-  For each distinct vowel, choose **exactly one** of its occurrences from s. If a vowel appears multiple times, each occurrence represents a unique selection choice.
+  - For each distinct vowel, choose **exactly one** of its occurrences from s. If a vowel appears multiple times, each occurrence represents a unique selection choice.
 
-  Generate all possible permutations of the selected vowels. Each unique arrangement counts as a distinct string.
+  - Generate all possible permutations of the selected vowels. Each unique arrangement counts as a distinct string.
 
 Return the total number of such distinct strings.
 
@@ -16,12 +16,13 @@ Return the total number of such distinct strings.
 
 ## Examples:
 
+```bash
 **Input:**  s = "aeiou"
 
 **Output:** 120
 
 **Explanation:** Each vowel appears once, so the number of different strings can form is 5! = 120.
-
+```
 ---
 
 
@@ -49,9 +50,13 @@ Return the total number of such distinct strings.
 
 
 1. **Identify vowels** in the string: only `'a', 'e', 'i', 'o', 'u'`.
+
 2. **Count how many times each vowel appears.**
+
 3. **For each vowel**, choose exactly one occurrence → total combinations = product of their counts.
+
 4. **Permute the selected vowels** → number of permutations = `factorial(number of unique vowels)`.
+
 5. **Final answer** = `combinations × permutations`.
 
 ---
