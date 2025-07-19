@@ -16,13 +16,12 @@ Return the total number of such distinct strings.
 
 ## Examples:
 
-```bash
+
 **Input:**  s = "aeiou"
 
 **Output:** 120
 
 **Explanation:** Each vowel appears once, so the number of different strings can form is 5! = 120.
-```
 ---
 
 
