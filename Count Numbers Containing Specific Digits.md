@@ -10,22 +10,22 @@ You are given an integer `n` representing the number of digits in a number, and 
 
 ```bash
 
-**Input:** n = 1, arr[] = [1, 2, 3]
+Input: n = 1, arr[] = [1, 2, 3]
 
-**Output:** 3
+Output: 3
 
-**Explanation:** Only the single-digit numbers [1, 2, 3] satisfy the condition.
+Explanation: Only the single-digit numbers [1, 2, 3] satisfy the condition.
 
 ```
 ---
 
 ```bash
 
-**Input:** n = 2, arr[] = [3, 5]
+Input: n = 2, arr[] = [3, 5]
 
-**Output:** 34
+Output: 34
 
-**Explanation:** There are a total of 34  two digit numbers which contain atleast  one out of  [3, 5].
+Explanation: There are a total of 34  two digit numbers which contain atleast  one out of  [3, 5].
 
 ```
 ---
