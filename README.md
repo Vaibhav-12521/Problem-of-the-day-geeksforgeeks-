@@ -46,7 +46,7 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 34  | [Power of k in factorial of n](https://www.geeksforgeeks.org/problems/power-of-k-in-n-where-k-may-be-non-prime4206/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Power%20of%20k%20in%20factorial%20of%20n.md) |
 | 35  | [LCM Triplet](https://www.geeksforgeeks.org/problems/lcm-triplet1501/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/LCM%20Triplet.md) |
 | 36  | [Count Unique Vowel Strings](https://www.geeksforgeeks.org/problems/count-unique-vowel-strings/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Count%20Unique%20Vowel%20Strings.md) |
-|   | []() | Python, Java | 📂 [Click Here]() |
+| 37  | [Count Numbers Containing Specific Digits](https://www.geeksforgeeks.org/problems/count-numbers-containing-specific-digits/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Count%20Numbers%20Containing%20Specific%20Digits.md) |
 |   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 
