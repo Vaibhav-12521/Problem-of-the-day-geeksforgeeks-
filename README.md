@@ -47,6 +47,8 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 35  | [LCM Triplet](https://www.geeksforgeeks.org/problems/lcm-triplet1501/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/LCM%20Triplet.md) |
 | 36  | [Count Unique Vowel Strings](https://www.geeksforgeeks.org/problems/count-unique-vowel-strings/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Count%20Unique%20Vowel%20Strings.md) |
 | 37  | [Count Numbers Containing Specific Digits](https://www.geeksforgeeks.org/problems/count-numbers-containing-specific-digits/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Count%20Numbers%20Containing%20Specific%20Digits.md) |
+| 38  | [Count the Coprimes](https://www.geeksforgeeks.org/problems/count-the-coprimes/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Count%20the%20Coprimes.md) |
+|   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 
