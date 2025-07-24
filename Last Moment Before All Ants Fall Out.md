@@ -25,7 +25,7 @@ Given an integer n and two integer arrays `left[]` and `right[]`, the positions 
 **Input:**  n = 4, left[] = [], right[] = [0, 1, 2, 3, 4]
 
 **Output:** 4
-        ![image](./assets/blobid0_1730198302.png)
+        <br><img src="./assets/blobid0_1730198642.png" alt="Ants falling" width="300"/>
 
 **Explanation:** All ants are going to the right, the ant at index 0 needs 4 seconds to fall.
 
