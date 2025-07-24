@@ -15,7 +15,7 @@ Given an integer n and two integer arrays `left[]` and `right[]`, the positions 
 
 Input: n = 4, left[] = [2], right[] = [0, 1, 3]
 Output: 4
-        (image)[./assets/blobid0_1730198301.png]
+        ![image](./assets/blobid0_1730198301.png)
 Explanation: As seen in the above image, the last ant falls off the plank at t = 4.
 ```
 
@@ -24,7 +24,7 @@ Explanation: As seen in the above image, the last ant falls off the plank at t =
 ```bash
 Input:  n = 4, left[] = [], right[] = [0, 1, 2, 3, 4]
 Output: 4
-        [image](./assets/blobid0_1730198302.png)
+        ![image](./assets/blobid0_1730198302.png)
 Explanation: All ants are going to the right, the ant at index 0 needs 4 seconds to fall.
 ```
 ---
