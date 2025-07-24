@@ -14,7 +14,9 @@ Given an integer n and two integer arrays `left[]` and `right[]`, the positions 
 **Input:** n = 4, left[] = [2], right[] = [0, 1, 3]
 
 **Output:** 4
-        ![image](./assets/blobid0_1730198301.png  width="300")
+
+       <img src="./assets/blobid0_1730198301.png" alt="Ants falling" width="300"/>
+
 **Explanation:** As seen in the above image, the last ant falls off the plank at t = 4.
 
 
