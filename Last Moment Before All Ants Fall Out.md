@@ -11,33 +11,31 @@ Given an integer n and two integer arrays `left[]` and `right[]`, the positions 
 
 ## **Examples :**
 
-```bash
+**Input:** n = 4, left[] = [2], right[] = [0, 1, 3]
 
-Input: n = 4, left[] = [2], right[] = [0, 1, 3]
-Output: 4
+**Output:** 4
         ![image](./assets/blobid0_1730198301.png)
-Explanation: As seen in the above image, the last ant falls off the plank at t = 4.
-```
+**Explanation:** As seen in the above image, the last ant falls off the plank at t = 4.
+
 
 ---
 
-```bash
-Input:  n = 4, left[] = [], right[] = [0, 1, 2, 3, 4]
-Output: 4
+
+**Input:**  n = 4, left[] = [], right[] = [0, 1, 2, 3, 4]
+
+**Output:** 4
         ![image](./assets/blobid0_1730198302.png)
-Explanation: All ants are going to the right, the ant at index 0 needs 4 seconds to fall.
-```
+
+**Explanation:** All ants are going to the right, the ant at index 0 needs 4 seconds to fall.
+
 ---
 
-```bash
+**Input:** n = 3, left[] = [0], right[] = [3]
 
-Input: n = 3, left[] = [0], right[] = [3]
+**Output:** 0
 
-Output: 0
+**Explanation:** The ants will fall off the plank as they are already on the end of the plank.
 
-Explanation: The ants will fall off the plank as they are already on the end of the plank.
-
-```
 
 ---
 
