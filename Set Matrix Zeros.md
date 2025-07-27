@@ -13,14 +13,13 @@ You are given a 2D matrix `mat[][]` of size `n x m`. The task is to modify the m
 
 Input: 
 
-    mat[][] = 
+mat[][] = 
     
     ![IMage](assets/blobid1_1751352682.jpg)
     
 Output: 
 
-
-    mat[][] = 
+mat[][] = 
     
     ![IMage](assets/blobid3_1751352733.jpg)
     
