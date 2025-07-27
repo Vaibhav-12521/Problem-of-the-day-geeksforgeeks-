@@ -11,19 +11,28 @@ You are given a 2D matrix `mat[][]` of size `n x m`. The task is to modify the m
 
 ---
 
-Input: 
-
-mat[][] = 
+**Input:** 
     
 ![IMage](assets/blobid1_1751352682.jpg)
     
-Output: 
+**Output:** 
 
-mat[][] = 
-    
 ![IMage](assets/blobid3_1751352733.jpg)
     
-Explanation: mat[1][1] = 0, so all elements in row 1 and column 1 are updated to zeroes.
+**Explanation:** mat[1][1] = 0, so all elements in row 1 and column 1 are updated to zeroes.
+
+---
+
+**Input:**
+
+![IMage](assets/blobid0_1753182969.jpg)
+
+**Output:** 
+
+![IMage](assets/blobid1_1753183001.jpg)
+    
+**Explanation:** mat[0][0] and mat[0][3] are 0s, so all elements in row 0, column 0 and column 3 are updated to zeroes.
+
 
 ---
 
