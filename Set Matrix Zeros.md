@@ -15,14 +15,14 @@ Input:
 
     mat[][] = 
     
-    ![IMage](./assets/blobid1_1751352682.jpg)
+    ![IMage](../assets/blobid1_1751352682.jpg)
     
 Output: 
 
 
     mat[][] = 
     
-    ![IMage](./assets/blobid3_1751352733.jpg)
+    ![IMage](../assets/blobid3_1751352733.jpg)
     
 Explanation: mat[1][1] = 0, so all elements in row 1 and column 1 are updated to zeroes.
 
