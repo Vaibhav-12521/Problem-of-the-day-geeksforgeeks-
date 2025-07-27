@@ -12,9 +12,11 @@ You are given a 2D matrix `mat[][]` of size `n x m`. The task is to modify the m
 ---
 
 Input: 
-    mat[][] = (IMage)[./assets/blobid1_1751352682.jpg]
+
+    mat[][] = [IMage](./assets/blobid1_1751352682.jpg)
     
 Output: 
+
     mat[][] = [IMage](./assets/blobid3_1751352733.jpg)
     
 Explanation: mat[1][1] = 0, so all elements in row 1 and column 1 are updated to zeroes.
