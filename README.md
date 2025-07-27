@@ -52,7 +52,7 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 40  | [Last Moment Before All Ants Fall Out](https://www.geeksforgeeks.org/problems/last-moment-before-all-ants-fall-out-of-a-plank/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Last%20Moment%20Before%20All%20Ants%20Fall%20Out.md) |
 | 41  | [Max Circular Subarray Sum](https://www.geeksforgeeks.org/problems/max-circular-subarray-sum-1587115620/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Max%20Circular%20Subarray%20Sum.md) |
 | 42  | [Majority Element II](https://www.geeksforgeeks.org/problems/majority-vote/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Majority%20Element%20II.md) |
-|   | []() | Python, Java | 📂 [Click Here]() |
+| 43  | [Set Matrix Zeros](https://www.geeksforgeeks.org/problems/set-matrix-zeroes/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Set%20Matrix%20Zeros.md) |
 |   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 
