@@ -54,6 +54,10 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 42  | [Majority Element II](https://www.geeksforgeeks.org/problems/majority-vote/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Majority%20Element%20II.md) |
 | 43  | [Set Matrix Zeros](https://www.geeksforgeeks.org/problems/set-matrix-zeroes/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Set%20Matrix%20Zeros.md) |
 | 44  | [Make Matrix Beautiful](https://www.geeksforgeeks.org/problems/make-matrix-beautiful-1587115620/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Make%20Matrix%20Beautiful.md) |
+| 45  | [ASCII Range Sum](https://www.geeksforgeeks.org/problems/ascii-range-sum/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/ASCII%20Range%20Sum.md) |
+|   | []() | Python, Java | 📂 [Click Here]() |
+|   | []() | Python, Java | 📂 [Click Here]() |
+|   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 
 
