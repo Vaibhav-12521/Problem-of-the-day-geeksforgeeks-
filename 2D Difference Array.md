@@ -12,22 +12,19 @@ For each of the q operations, add v to every element in the submatrix from (r1, 
 
 ## **Examples :**
 
-```bash
 
-Input: mat[][] = [[1, 2, 3],  opr[][] = [[2, 0, 0, 1, 1], [-1, 1, 0, 2, 2]]
+**Input:** mat[][] = [[1, 2, 3],  opr[][] = [[2, 0, 0, 1, 1], [-1, 1, 0, 2, 2]]
                 [1, 1, 0],
                 [4,-2, 2]]
 
-Output: [[3, 4, 3],
+**Output:** [[3, 4, 3],
         [2, 2, -1],
         [3, -3, 1]] 
 
-Explanation:
+**Explanation:**
 
+![IMage](assets/blobid1_1753512754.jpg)
 
-                      ![IMage](assets/blobid1_1753512754.jpg)
-
-```
 
 ---
 
