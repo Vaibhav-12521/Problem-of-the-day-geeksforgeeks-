@@ -22,7 +22,10 @@ Output: [[3, 4, 3],
         [2, 2, -1],
         [3, -3, 1]] 
 
-Explanation:  ![IMage](assets/blobid1_1753512754.jpg)
+Explanation:
+
+
+                      ![IMage](assets/blobid1_1753512754.jpg)
 
 ```
 
