@@ -30,7 +30,10 @@ For each of the q operations, add v to every element in the submatrix from (r1, 
 
 
 ## 
-- 1 ≤ s.size() ≤ 10^5
+- 1 ≤ n×m, q ≤ 10^5
+- 0 ≤ r1 ≤ r2 ≤ n - 1
+- 0 ≤ c1 ≤ c2 ≤ m - 1
+- -104 ≤ mat[i][j], v ≤ 10^4
 ---
 
 ### **✅ Steps to Solve:**
