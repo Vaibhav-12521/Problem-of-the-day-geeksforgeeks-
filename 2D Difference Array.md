@@ -24,7 +24,7 @@ Output: [[3, 4, 3],
 
 Explanation:
 
-![](assets/blobid1_1753512754.jpg)
+![IMage](assets/blobid1_1753512754.jpg)
 
 ```
 
