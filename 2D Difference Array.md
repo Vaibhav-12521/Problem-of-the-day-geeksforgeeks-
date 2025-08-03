@@ -1,10 +1,13 @@
 # **2D Difference Array**
 
 ## Problem Statement
-Given a string s consisting of lowercase English letters, for every character whose first and last occurrences are at different positions, calculate the sum of ASCII values of characters `strictly between` its first and last occurrence.
+You are given a 2D integer matrix mat[][] of size n × m and a list of q operations opr[][]. Each operation is represented as an array [v, r1, c1, r2, c2], where:
 
-Return all such `non-zero sums` (order does not matter).
+  - v is the value to be added
+  - (r1, c1) is the top-left cell of a submatrix
+  - (r2, c2) is the bottom-right cell of the submatrix (inclusive)
 
+For each of the q operations, add v to every element in the submatrix from (r1, c1) to (r2, c2). Return the final matrix after applying all operations.
 ---
 
 ## **Examples :**
@@ -21,7 +24,7 @@ Output: [[3, 4, 3],
 
 Explanation:
 
-![](./assets/blobid1_1753512754.jpg)
+![](assets/blobid1_1753512754.jpg)
 
 ```
 
@@ -34,21 +37,26 @@ Explanation:
 
 ### **✅ Steps to Solve:**
 
-1. **Track First and Last Index:**
+1. **Create a `diff` matrix** of size `(n+1) x (m+1)` initialized to 0.
 
-   * For each character in the string, store its **first** and **last** occurrence positions.
+2. **For each operation `[v, r1, c1, r2, c2]`**, update `diff` matrix using:
 
-2. **Loop Through Repeating Characters:**
+   * `diff[r1][c1] += v`
+   * `diff[r1][c2+1] -= v`
+   * `diff[r2+1][c1] -= v`
+   * `diff[r2+1][c2+1] += v`
 
-   * For each character where first ≠ last:
+3. **Apply prefix sums**:
 
-     * Sum ASCII values of characters **between** those two positions.
+   * First row-wise
+   * Then column-wise
 
-3. **Collect Non-Zero Sums:**
+4. **Update the original matrix**:
 
-   * Add each non-zero sum to the result list.
+   * `mat[i][j] += diff[i][j]`
 
-4. **Return Result List.**
+5. **Return the updated matrix**.
+
 
 
 ---
@@ -60,61 +68,72 @@ Explanation:
 
 ```python
 class Solution:
-    def asciirange(self, s):
-        first_index = {}
-        last_index = {}
-        result = []
+    def applyDiff2D(self, mat, opr):
+        n, m = len(mat), len(mat[0])
+        diff = [[0] * (m + 1) for _ in range(n + 1)]
 
-        for i, ch in enumerate(s):
-            if ch not in first_index:
-                first_index[ch] = i
-            last_index[ch] = i
+        for v, r1, c1, r2, c2 in opr:
+            diff[r1][c1] += v
+            if c2 + 1 < m:
+                diff[r1][c2 + 1] -= v
+            if r2 + 1 < n:
+                diff[r2 + 1][c1] -= v
+            if r2 + 1 < n and c2 + 1 < m:
+                diff[r2 + 1][c2 + 1] += v
 
-        for ch in first_index:
-            start = first_index[ch]
-            end = last_index[ch]
-            if start < end:
-                ascii_sum = sum(ord(s[i]) for i in range(start + 1, end))
-                if ascii_sum > 0:
-                    result.append(ascii_sum)
+        for i in range(n):
+            for j in range(1, m):
+                diff[i][j] += diff[i][j - 1]
 
-        return result
+        for j in range(m):
+            for i in range(1, n):
+                diff[i][j] += diff[i - 1][j]
+
+        for i in range(n):
+            for j in range(m):
+                mat[i][j] += diff[i][j]
+
+        return mat
+
 
 ```
 ## ☕️ Java Solution
 
 ```java
-import java.util.*;
-
 class Solution {
-    public ArrayList<Integer> asciirange(String s) {
-        HashMap<Character, Integer> firstIndex = new HashMap<>();
-        HashMap<Character, Integer> lastIndex = new HashMap<>();
-        ArrayList<Integer> result = new ArrayList<>();
+    public ArrayList<ArrayList<Integer>> applyDiff2D(int[][] mat, int[][] opr) {
+        int n = mat.length, m = mat[0].length;
+        int[][] diff = new int[n + 1][m + 1];
 
-        for (int i = 0; i < s.length(); i++) {
-            char ch = s.charAt(i);
-            firstIndex.putIfAbsent(ch, i);
-            lastIndex.put(ch, i);
+        for (int[] op : opr) {
+            int v = op[0], r1 = op[1], c1 = op[2], r2 = op[3], c2 = op[4];
+            diff[r1][c1] += v;
+            if (c2 + 1 < m) diff[r1][c2 + 1] -= v;
+            if (r2 + 1 < n) diff[r2 + 1][c1] -= v;
+            if (r2 + 1 < n && c2 + 1 < m) diff[r2 + 1][c2 + 1] += v;
         }
 
-        for (char ch : firstIndex.keySet()) {
-            int start = firstIndex.get(ch);
-            int end = lastIndex.get(ch);
-            if (start < end) {
-                int sum = 0;
-                for (int i = start + 1; i < end; i++) {
-                    sum += (int) s.charAt(i);
-                }
-                if (sum > 0) {
-                    result.add(sum);
-                }
+        for (int i = 0; i < n; i++)
+            for (int j = 1; j < m; j++)
+                diff[i][j] += diff[i][j - 1];
+
+        for (int j = 0; j < m; j++)
+            for (int i = 1; i < n; i++)
+                diff[i][j] += diff[i - 1][j];
+
+        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            ArrayList<Integer> row = new ArrayList<>();
+            for (int j = 0; j < m; j++) {
+                row.add(mat[i][j] + diff[i][j]);
             }
+            result.add(row);
         }
 
         return result;
     }
 }
+
 
 
 ```
