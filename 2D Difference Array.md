@@ -20,6 +20,7 @@ Output: [[3, 4, 3],
         [3, -3, 1]] 
 
 Explanation:
+
 ()[./assets/blobid1_1753512754.jpg]
 
 ```
