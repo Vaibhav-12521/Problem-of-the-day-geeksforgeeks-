@@ -58,6 +58,10 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 46  | [Subarrays with sum K](https://www.geeksforgeeks.org/problems/subarrays-with-sum-k/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Subarrays%20with%20sum%20K.md) |
 | 47  | [Balancing Consonants and Vowels Ratio](https://www.geeksforgeeks.org/problems/balancing-consonants-and-vowels-ratio/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Balancing%20Consonants%20and%20Vowels%20Ratio.md) |
 | 48  | [Longest Subarray with Majority Greater than K](https://www.geeksforgeeks.org/problems/longest-subarray-with-majority-greater-than-k/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Longest%20Subarray%20with%20Majority%20Greater%20than%20K.md) |
+| 49  | [Maximum sum Rectangle](https://www.geeksforgeeks.org/problems/maximum-sum-rectangle2948/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Maximum%20sum%20Rectangle.md) |
+|   | []() | Python, Java | 📂 [Click Here]() |
+|   | []() | Python, Java | 📂 [Click Here]() |
+|   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 
 
