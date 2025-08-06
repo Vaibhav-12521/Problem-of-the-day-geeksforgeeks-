@@ -60,7 +60,7 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 48  | [Longest Subarray with Majority Greater than K](https://www.geeksforgeeks.org/problems/longest-subarray-with-majority-greater-than-k/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Longest%20Subarray%20with%20Majority%20Greater%20than%20K.md) |
 | 49  | [Maximum sum Rectangle](https://www.geeksforgeeks.org/problems/maximum-sum-rectangle2948/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Maximum%20sum%20Rectangle.md) |
 | 50  | [Palindrome Sentence](https://www.geeksforgeeks.org/problems/string-palindromic-ignoring-spaces4723/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Palindrome%20Sentence.md) |
-|   | []() | Python, Java | 📂 [Click Here]() |
+| 51  | [Roman Number to Integer](https://www.geeksforgeeks.org/problems/roman-number-to-integer3201/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Roman%20Number%20to%20Interger.md) |
 |   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 
