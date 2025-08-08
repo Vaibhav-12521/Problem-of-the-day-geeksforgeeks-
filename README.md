@@ -62,6 +62,8 @@ Each problem is solved in the language mentioned in the table, with the source c
 | 50  | [Palindrome Sentence](https://www.geeksforgeeks.org/problems/string-palindromic-ignoring-spaces4723/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Palindrome%20Sentence.md) |
 | 51  | [Roman Number to Integer](https://www.geeksforgeeks.org/problems/roman-number-to-integer3201/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Roman%20Number%20to%20Interger.md) |
 | 52  | [Difference Check](https://www.geeksforgeeks.org/problems/difference-check/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Difference%20Check.md) |
+| 53  | [Longest Prefix Suffix](https://www.geeksforgeeks.org/problems/longest-prefix-suffix2527/1) | Python, Java | 📂 [Click Here](https://github.com/Vaibhav-12521/Problem-of-the-day-geeksforgeeks-/blob/main/Longest%20Prefix%20Suffix.md) |
+|   | []() | Python, Java | 📂 [Click Here]() |
 |   | []() | Python, Java | 📂 [Click Here]() |
 
 
